@@ -8,7 +8,7 @@ public class MergeSortDemo {
             System.out.print(anArray[i] + " ");
         }
         System.out.println();
-        MergeSort.sort(anArray);
+        MergeSort.sort(anArray, "> ");
         System.out.println("Array values after sorting:");
         for (int i = 0; i < anArray.length; i++) {
             System.out.print(anArray[i] + " ");
