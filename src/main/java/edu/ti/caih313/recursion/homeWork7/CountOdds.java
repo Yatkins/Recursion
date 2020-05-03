@@ -1,8 +1,7 @@
-package edu.ti.caih313.recursion.simple;
+package edu.ti.caih313.recursion.homeWork7;
 
 import java.util.Scanner;
 
-//TODO
 public class CountOdds {
     private static int odds = 0;
 
@@ -42,15 +41,3 @@ public class CountOdds {
         }return numOdds;
     }
 }
-
-/*
-    public static int simpleCountOdd(int number) {
-        }int secondCount = 0;
-        for (int i = 0; i < numDigits; i++) {
-            int remainder = number % 10;
-            if (remainder%2 != 0) {
-                secondCount++;
-            }number = number/10;
-        }return secondCount;}
-
- */

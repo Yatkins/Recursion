@@ -1,4 +1,4 @@
-package edu.ti.caih313.recursion.simple;
+package edu.ti.caih313.recursion.homeWork7;
 
 import java.math.BigInteger;
 import java.util.Scanner;
@@ -16,7 +16,7 @@ public class BigIntTenToTheN {
         }
         BigInteger tenToNum = tenToTheN(number);
         System.out.println("10^" + number + " =" + ((fraction)?" 1/":" ") + tenToNum);
-        System.out.println(formatBigInteger(BigInteger.valueOf(700000000000l), ""));
+        System.out.println(formatBigInteger(BigInteger.valueOf(700000000000L), ""));
     }
 
     static BigInteger tenToTheN(int n) {

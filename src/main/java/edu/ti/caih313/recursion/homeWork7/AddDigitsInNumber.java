@@ -1,4 +1,4 @@
-package edu.ti.caih313.recursion.simple;
+package edu.ti.caih313.recursion.homeWork7;
 
 import java.util.Scanner;
 
